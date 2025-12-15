@@ -1,17 +1,17 @@
-2025-12-15 CRUD
+2025-12-15 MVC
 
-✅ 오늘 한 것
-- 스프링 부트 게시판 CRUD 중 Read 구현
-- Article 엔티티 / Repository 사용
+MVC는 소프트웨어를 Model, View, Controller 3가지 요소로 분리하는 패턴이다.
+데이터, 화면, 사용자 입력 처리를 나눠서 객체지향적으로 처리하기에 
+이해를 쉽게 하고 유지보수성을 높인다는 장점이 있다.
 
-✅ 이해한 것
-- CRUD는 create, read, update, delete를 묶은 것
-- Entity는 DB 테이블을 자바 객체로 표현한 것
-- Repository는 DB랑 통신하는 역할
+전체적인 흐름은
 
-❓ 헷갈렸던 것
-- 왜 Controller에서 바로 DB 접근 안 하는지
+사용자 입력
 
-💡 느낀 점
-- 코드가 왜 이렇게 나뉘었는지 이제 조금 알 것 같다
-- 확실히 이렇게 역할을 구분해서 코드를 작성하면 유지보수측에서 큰 도움이 될 것 같다.
+controller(요청 받음)
+
+model(데이터 처리, 로직수행)
+
+view(표시 데이터 렌더링)
+
+http response로 사용자에게 응답

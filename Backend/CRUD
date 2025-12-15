@@ -1,0 +1,17 @@
+2025-12-10 CRUD
+
+✅ 오늘 한 것
+- 스프링 부트 게시판 CRUD 중 Read 구현
+- Article 엔티티 / Repository 사용
+
+✅ 이해한 것
+- CRUD는 create, read, update, delete를 묶은 것
+- Entity는 DB 테이블을 자바 객체로 표현한 것
+- Repository는 DB랑 통신하는 역할
+
+❓ 헷갈렸던 것
+- 왜 Controller에서 바로 DB 접근 안 하는지
+
+💡 느낀 점
+- 코드가 왜 이렇게 나뉘었는지 이제 조금 알 것 같다
+- 확실히 이렇게 역할을 구분해서 코드를 작성하면 유지보수측에서 큰 도움이 될 것 같다.

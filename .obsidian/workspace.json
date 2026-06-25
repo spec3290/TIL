@@ -11,14 +11,14 @@
             "id": "dae1d938e3b2f09b",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "Backend/concepts/Spring/AOP.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "AOP"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "21f72de91ab8da54",
@@ -196,8 +197,16 @@
   },
   "active": "dae1d938e3b2f09b",
   "lastOpenFiles": [
+    "Pasted image 20260625030011.png",
+    "Backend/concepts/Spring",
+    "Backend/concepts/db/영속성 컨텍스트.md",
+    "Backend/concepts/db/Relation.md",
+    "Backend/concepts/annotation/@Query",
+    "Backend/concepts/db",
+    "Backend/concepts/annotation",
+    "Backend/concepts",
     "Backend/영속성 컨텍스트.md",
-    "Backend/AOP.md",
+    "Backend/concepts/Spring/AOP.md",
     "무제.md",
     "무제 1.md",
     "CS/Data structure/deque.md",

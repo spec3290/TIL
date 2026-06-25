@@ -17,12 +17,32 @@
 3. Pointcut
 	어떤 메서드가 어떤 advice를 받을지 결정하는 표현식
 4. Join Point
-	프로그램 실행 중 특정 시점을 나타낸다.
 	advice가 적용될 수 있는 위치
+	메서드 실행 시점이든 예외 발생 시점이든..
 5. target
 	실제 비즈니스 로직을 가진 객체
 	AOP는 target객체 사이에 advice를 끼워넣음
 
+# 예시
+```
+@Aspect
+@Component
+class LoggingAspect {
+
+    @Around("execution(* com.example.demo.service..*(..))")//demo.service //pointcut
+    // advice
+    fun logExecutionTime(joinPoint: ProceedingJoinPoint): Any? {
+        val start = System.currentTimeMillis()
+
+        val result = joinPoint.proceed()
+
+        val end = System.currentTimeMillis()
+        println("${joinPoint.signature.name} 실행 시간: ${end - start}ms")
+
+        return result
+    }
+} 
+``` 
 # 어떨 때 사용해야 좋은가?
 반복되는 공통 기능을 분류하여 사용할 때 좋다.
 예시로 ```
@@ -35,7 +55,7 @@
 - 캐싱 처리
 등이 있다.
 
-다만 그렇다고 해서 몇 줄 없는 메서드에다가 아무렇게나 떡칠하면 오히려 복잡해질 수 있다.
+다만 그렇다고 해서 몇 줄 없는 메서드에다가 아무렇게나 떡칠하면 되려 복잡해질 수도 있으므로 여러 곳에서 사용되는 공통 기능에만 적용하는 게 좋을 것 같다
 
 ## 정리
 aop는 공통 관심사를 핵심 비즈니스 로직에서 분리하기 위한 프로그래밍 방식이다. 주로 프록시 기반으로 동작하며, @Transactional, @async도 aop 관점에서 이해하면 원리를 더 잘 이해할 수 있다.

@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "N+1.md",
+                "file": "Backend/concepts/db/N+1.md",
                 "mode": "source",
                 "source": false
               },
@@ -251,9 +251,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1c5f55e9bbc20588",
+  "active": "c75dea2a4cd7c1c5",
   "lastOpenFiles": [
-    "N+1.md",
+    "Backend/concepts/db/N+1.md",
     "Backend/concepts/stacks/MessageQueue.md",
     "무제 1.md",
     "Backend/concepts/stacks",

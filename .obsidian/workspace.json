@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/concepts/architecture/헥사고날 아키텍처.md",
+                "file": "Backend/concepts/architecture/hexagonal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "헥사고날 아키텍처"
+              "title": "hexagonal"
             }
           }
         ],
@@ -251,10 +251,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1c5f55e9bbc20588",
+  "active": "c75dea2a4cd7c1c5",
   "lastOpenFiles": [
     "Backend/concepts/db/N+1.md",
-    "Backend/concepts/architecture/헥사고날 아키텍처.md",
+    "Backend/concepts/architecture/hexagonal.md",
     "Backend/concepts/architecture",
     "Backend/concepts/stacks/MessageQueue.md",
     "무제 1.md",

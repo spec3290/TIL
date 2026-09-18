@@ -81,14 +81,14 @@
             "id": "3706bde6ba98f831",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "트랜잭션 격리 레벨 + 동시성 제어.md",
-                "mode": "source",
-                "source": false
+                "aFile": "트랜잭션 격리 레벨 + 동시성 제어.md",
+                "bFile": "트랜잭션 격리 레벨 + 동시성 제어.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "트랜잭션 격리 레벨 + 동시성 제어"
+              "icon": "diff",
+              "title": "Diff: 트랜잭션 격리 레벨 + 동시성 제어  (Working Tree)"
             }
           }
         ],
@@ -269,7 +269,8 @@
   },
   "active": "3706bde6ba98f831",
   "lastOpenFiles": [
-    "트랜잭션 격리 레벨 + 동시성 제어.md",
+    "Backend/concepts/db/트랜잭션 격리 레벨 + 동시성 제어.md",
+    "Backend/concepts/architecture/hexagonal.md",
     "Backend/concepts/db/쿼리 튜닝.md",
     "CS/HTTPS.md",
     "Backend/concepts/무제",
@@ -277,7 +278,6 @@
     "Backend/concepts/Spring/AOP.md",
     "Backend/mvc.md",
     "Backend/concepts/stacks/MessageQueue.md",
-    "Backend/concepts/architecture/hexagonal.md",
     "Backend/concepts/db/N+1.md",
     "Backend/concepts/architecture",
     "무제 1.md",
